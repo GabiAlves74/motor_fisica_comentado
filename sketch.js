@@ -4,14 +4,14 @@
 
 
 //Declaramos variáveis const para chamar as propriedades no projeto com mais facilidade 
-//INFO: A variável 'const' é uma váriavel de escopo local, o que significa que o valor dela não pode ser alterado
+//INFO: A variável 'const' não permite alteração no valor armazenado 
 const Engine = Matter.Engine;  //motor de física
 const World = Matter.World;   //mundo físico para que as regras possam ser aplicadas
 const Bodies = Matter.Bodies;  // corpos no mundo físico
 const Body = Matter.Body;   // corpo no mundo físico
 
 //Váriáveis para a criação dos objetos
-// INFO: a variável LET, assim como CONST não permite alteração de valor
+// INFO: a variável LET, permite a alteração do valor apenas uma vez
 let engine;
 let world;
 var ball;
